@@ -1,0 +1,41 @@
+Notas de Aula 03/05/2021
+
+- Vetores e Matrizes são estruturas de armazenamento, assim como
+as variáveis comuns, porém são arranjos que permitem referenciarmos
+multiplos valores.
+	- São estruturas que possuem um tipo rídigo (que após declarada, não podemos mais modificar o seu tipo)
+		int vetValores[10]; //fixamos que possuem 10 elementos (0....9)
+		
+	- Indices de um vetor/matriz variam de 0 a N-1, em que N representa o número de elementos comportados pelo vetor/matriz.
+	
+	- Uma vez que definimos um array (seja um vetor ou matriz) sua maninupalação, ao percorrer, ordenar, excluir... enfim... passa ser sempre por meio do indice, de forma sequencial.
+
+- Vetores são arrays unidimensionais. Ex.: int vetValor[10];
+- Matrizes são arrays multidimensionais. Ex.: int vetNotas [5][2];
+
+- Simbolos
+	& - Remete ao endereço de memória
+	<vazio> - Remete ao valor contido no endereço de memória
+	int x = 10;
+	printf("%i", x); // 10
+	printf("%i", &x); //Endereço em que variável foi declarada 2274164
+	
+- Funções são blocos de comandos nomeados, que quando são invocados
+executam o conteúdo declaração em seu corpo ({ ..... })
+	
+		int x = 0; //Declarando uma variavel
+		x //Acessando o conteúdo da variável
+		&x //Informando o endereço de memória na qual a variável está
+		
+		//Declaração de uma função
+		void somar(int valorA, int valorB){ ... }
+
+		//Invocação de execução de uma função
+		somar(10, 20);
+
+- No que tange a forma de invocar a função:
+	*Chamada por valor: situação na qual eu fixo o argumento passando os valores para a função. Ex: somar(10, 15);
+
+	*Chamada por referência: eu informo a referência de uma variável.
+	Ex: somar(valorA, valorB);
+	Ex: somar(10, valorB); //forma mista, pré-fixou e passou também uma referência.
