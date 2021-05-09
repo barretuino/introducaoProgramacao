@@ -1,0 +1,36 @@
+Notas de Aula 10/05/2021
+
+- Declaração de variáveis
+	- Declaração é local (escopo).
+	
+	- Declaração global (estrutura / instância): declaração realizada fora de qualquer função, sendo assim acessível à todas as funções destes código fonte.
+
+- Sobrecarga de Funções	- Implementação do Conceito de Polimorfismo
+	- Funções cujo e o retorno são os mesmos porém há uma variação em sua 'assinatura'. A assinatura de uma função consiste em três caracteríticas:
+		* o número de argumentos (int) x (int, int)
+		* o tipo dos argumentos (int, int) x (float, int)
+		* a ordem dos argumentos (int, float) x (float, int)
+	
+- Funções e Matrizes
+	- Tanto na inserção como na pesquisa, o indice é fundamental para posicionamento do elemento.
+
+- Switch case com chamada de funções
+	- Desvio de Fluxo, que assim como o if...else, permite que uma codição determine o fluxo de execução.
+	- Associado a funções, criar por exemplo a chamada de menus de aplicação.
+	
+- Macros
+	Recurso que por meio do define, em que você atribui o alias para constante e em seguida a sua representação na linguagem de programação.
+	
+- Struct - Estruturas que permitem a composição com tipos de dados que contém propriedades. Caracteristicas que podem ser descritas em um registro.
+
+**************************************************************************
+- Atividade de Fixação - Passível de nota
+	- Elaborem uma matriz que represente para nós um sala de aula
+		- Aluno: codDisciplina, ra, numFaltas, numPresencas, media;
+		Modelem uma proposta, como desejar de com matrizes.		
+		- Cadastrar
+		- Pesquisar
+		- Alterar
+		
+	- DESAFIO: Será que você consegue criar uma struct Aluno e fazer essas mesmas ações? Uma dica, use a struct com matrizes e você terá sucesso em sua empreitada.
+**************************************************************************
